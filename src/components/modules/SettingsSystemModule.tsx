@@ -174,7 +174,7 @@ export const SettingsSystemModule: React.FC = () => {
       username: newUsername.trim(),
       password: newPasswordInit.trim(),
       name: newName.trim(),
-      email: newEmail.trim() || `${newUsername.trim()}@lequydon.edu.vn`,
+      email: newEmail.trim() || `${newUsername.trim()}@langson.edu.vn`,
       phone: newPhone.trim() || '0900000000',
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
       role: assignedRole,
@@ -976,7 +976,7 @@ export const SettingsSystemModule: React.FC = () => {
                   </label>
                   <input
                     type="email"
-                    placeholder="email@lequydon.edu.vn"
+                    placeholder="email@langson.edu.vn"
                     value={newEmail}
                     onChange={(e) => setNewEmail(e.target.value)}
                     className="w-full bg-slate-50 border border-slate-200 px-3 py-2 rounded-xl outline-none"

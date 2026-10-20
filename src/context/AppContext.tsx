@@ -199,10 +199,10 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     initial?.schoolName || 'Trường Tiểu học Vân Nham'
   );
   const [schoolAddress, setSchoolAddress] = useState<string>(
-    initial?.schoolAddress || 'Số 123 Đường Sư Vạn Hạnh, Phường 12, Quận 10, TP. Hồ Chí Minh'
+    initial?.schoolAddress || 'Thôn Đập, Xã Vân Nham, Tỉnh Lạng Sơn'
   );
   const [schoolPhone, setSchoolPhone] = useState<string>(
-    initial?.schoolPhone || '(028) 3865 4321'
+    initial?.schoolPhone || '(025) 3828 809'
   );
 
   const updateSchoolInfo = (name: string, address: string, phone: string) => {
