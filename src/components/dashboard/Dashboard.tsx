@@ -199,7 +199,7 @@ export const Dashboard: React.FC = () => {
         {/* Top Right Prominent Softly Rounded School Logo in Overview Module */}
         <div className="absolute right-6 top-6 z-10 hidden sm:flex items-center justify-center p-3 sm:p-4 bg-white/25 backdrop-blur-md rounded-full border-2 border-white/40 shadow-2xl hover:scale-105 transition-all duration-300 group">
           <img
-            src="/assets/aistudio/image_d2555e7a.png"
+            src={`${import.meta.env.BASE_URL}assets/aistudio/image_d2555e7a.png`}
             alt="Logo Trường Tiểu học Vân Nham Bo Tròn Mềm Mại"
             className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 object-contain rounded-full filter drop-shadow-lg brightness-110"
           />

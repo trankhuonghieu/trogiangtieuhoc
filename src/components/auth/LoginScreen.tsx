@@ -83,7 +83,7 @@ export const LoginScreen: React.FC = () => {
             
             <div className="relative p-4 sm:p-5 bg-white rounded-full border-4 border-sky-100/90 shadow-2xl flex items-center justify-center backdrop-blur-md overflow-hidden">
               <img
-                src="/assets/aistudio/image_d2555e7a.png"
+                src={`${import.meta.env.BASE_URL}assets/aistudio/image_d2555e7a.png`}
                 alt="Logo Trường Tiểu học Vân Nham Chính Giữa"
                 className="w-32 h-32 sm:w-44 sm:h-44 md:w-52 md:h-52 object-contain rounded-full hover:scale-105 transition-transform duration-300 filter drop-shadow-md"
               />
@@ -105,7 +105,7 @@ export const LoginScreen: React.FC = () => {
             {/* Perfectly Centered Submerged Watermark Logo (Logo Chìm Cân Đối) */}
             <div className="absolute inset-0 flex items-center justify-center opacity-15 pointer-events-none select-none z-0 p-6">
               <img
-                src="/assets/aistudio/image_d2555e7a.png"
+                src={`${import.meta.env.BASE_URL}assets/aistudio/image_d2555e7a.png`}
                 alt="Logo Chìm Màn Hình Bảng Xanh Cân Đối"
                 className="w-72 h-72 sm:w-88 sm:h-88 md:w-96 md:h-96 object-contain filter drop-shadow-2xl brightness-125 saturate-125"
               />
