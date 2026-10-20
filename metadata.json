@@ -1,0 +1,6 @@
+{
+  "name": "Trợ Giảng Tiểu Học - Nền Tảng Hỗ Trợ Giáo Viên Dạy Học",
+  "description": "Nền tảng EdTech toàn diện hỗ trợ giáo viên tiểu học: số hóa kế hoạch giảng dạy, quản lý lớp học, tổ chức hoạt động học tập tương tác, kiểm tra đánh giá theo TT 27 và trợ lý AI chuyên môn.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
