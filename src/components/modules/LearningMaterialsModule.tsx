@@ -198,7 +198,7 @@ export const LearningMaterialsModule: React.FC = () => {
   <table class="header-table">
     <tr>
       <td style="text-align: left; vertical-align: top;">
-        <strong>TRƯỜNG TIỂU HỌC Vân Nham</strong><br/>
+        <strong>TRƯỜNG TIỂU HỌC VÂN NHAM</strong><br/>
         <em>Kho dữ liệu học liệu số GDPT 2018</em>
       </td>
       <td style="text-align: right; vertical-align: top;">
