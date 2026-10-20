@@ -221,19 +221,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     updateSchoolInfo(newName, schoolAddress, schoolPhone);
   };
 
-  const [classes, setClasses] = useState<ClassRoom[]>(() => {
-    const raw: ClassRoom[] = initial?.classes || INITIAL_CLASSES;
-    return raw.map((c) => {
-      if (c.id === 'class-1a1' && (c.homeroomTeacherName === 'Cô Bùi Thị Hoa' || !c.homeroomTeacherName)) {
-        return {
-          ...c,
-          homeroomTeacherName: 'Cô Lưu Thị Hiền',
-          homeroomTeacherId: 'user-teacher-hien',
-        };
-      }
-      return c;
-    });
-  });
+  const [classes, setClasses] = useState<ClassRoom[]>(initial?.classes || INITIAL_CLASSES);
   const [subjects] = useState<Subject[]>(INITIAL_SUBJECTS);
   const [students, setStudents] = useState<Student[]>(initial?.students || INITIAL_STUDENTS);
   const [attendance, setAttendance] = useState<AttendanceRecord[]>(initial?.attendance || INITIAL_ATTENDANCE);
