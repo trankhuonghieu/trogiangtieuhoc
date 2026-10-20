@@ -216,7 +216,7 @@ ${fileContext}
   if (type === 'lesson_plan' || lowerPrompt.includes('giáo án') || lowerPrompt.includes('kế hoạch bài dạy')) {
     return `### KẾ HOẠCH BÀI DẠY (GIÁO ÁN) CHUẨN GDPT 2018 - CÔNG VĂN 2345/BGDĐT-GDTH
 ${fileContext}
-**Trường Tiểu học:** Lê Quý Đôn | **Tổ Chuyên môn:** Khối 3
+**Trường Tiểu học:** Vân Nham | **Tổ Chuyên môn:** Khối 3
 **Môn học:** Tích hợp theo yêu cầu | **Thời lượng:** 35 phút
 
 #### I. YÊU CẦU CẦN ĐẠT

@@ -198,7 +198,7 @@ export const LearningMaterialsModule: React.FC = () => {
   <table class="header-table">
     <tr>
       <td style="text-align: left; vertical-align: top;">
-        <strong>TRƯỜNG TIỂU HỌC LÊ QUÝ ĐÔN</strong><br/>
+        <strong>TRƯỜNG TIỂU HỌC Vân Nham</strong><br/>
         <em>Kho dữ liệu học liệu số GDPT 2018</em>
       </td>
       <td style="text-align: right; vertical-align: top;">
@@ -731,7 +731,7 @@ export const LearningMaterialsModule: React.FC = () => {
               {viewingMaterial.type === 'worksheet' && (
                 <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-3 text-xs">
                   <div className="flex justify-between pb-2 border-b border-slate-100 text-[11px] font-bold text-slate-600">
-                    <span>Trường TH Lê Quý Đôn</span>
+                    <span>Trường TH Vân Nham</span>
                     <span>PHIẾU HỌC TẬP & ÔN TẬP</span>
                   </div>
                   <div className="text-slate-800 font-bold text-sm text-center uppercase py-1">

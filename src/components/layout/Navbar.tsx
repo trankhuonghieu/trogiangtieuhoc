@@ -117,7 +117,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onToggleSidebar }) => {
               </span>
             </div>
             <p className="text-[11px] text-slate-500 font-medium hidden md:block">
-              {schoolName || 'Trường Tiểu học Lê Quý Đôn'} • Năm học 2025 - 2026
+              {schoolName || 'Trường Tiểu học Vân Nham'} • Năm học 2025 - 2026
             </p>
           </div>
         </div>

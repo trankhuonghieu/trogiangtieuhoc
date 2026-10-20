@@ -196,7 +196,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   const [activeTab, setActiveTab] = useState<ActiveTab>('dashboard');
   const [darkMode, setDarkMode] = useState<boolean>(initial?.darkMode || false);
   const [schoolName, setSchoolName] = useState<string>(
-    initial?.schoolName || 'Trường Tiểu học Lê Quý Đôn'
+    initial?.schoolName || 'Trường Tiểu học Vân Nham'
   );
   const [schoolAddress, setSchoolAddress] = useState<string>(
     initial?.schoolAddress || 'Số 123 Đường Sư Vạn Hạnh, Phường 12, Quận 10, TP. Hồ Chí Minh'

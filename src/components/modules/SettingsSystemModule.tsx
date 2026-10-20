@@ -391,7 +391,7 @@ export const SettingsSystemModule: React.FC = () => {
                     required
                     value={editingSchoolName}
                     onChange={(e) => setEditingSchoolName(e.target.value)}
-                    placeholder="Ví dụ: Trường Tiểu học Lê Quý Đôn..."
+                    placeholder="Ví dụ: Trường Tiểu học Vân Nham..."
                     className="w-full bg-slate-50 border border-slate-200 pl-10 pr-4 py-3 rounded-2xl text-xs font-bold text-slate-800 outline-none focus:border-emerald-500 focus:bg-white transition-all shadow-inner"
                   />
                 </div>
